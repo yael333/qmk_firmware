@@ -30,5 +30,6 @@
     },
     "clangd.arguments": [
         "--header-insertion=never"
-    ]
+    ],
+    "nixEnvSelector.nixFile": "${workspaceFolder}/shell.nix"
 }
